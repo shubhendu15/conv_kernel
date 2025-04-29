@@ -12,7 +12,7 @@ void Conv2DRef(const float* input,
 
 				for(int ic = 0; ic < desc.in_channels; ++ic){
 					for (int ky = 0; ky < desc.kernel_height; ++ky){
-						for (int kx = 0; desc.kernel_width; ++kx){
+						for (int kx = 0; kx < desc.kernel_width; ++kx){
 							int ix = ox * desc.stride_x + kx - desc.padding_x;
 							int iy = oy * desc.stride_y + ky - desc.padding_y;
 							if (ix >=0 && ix < desc.in_width &&
