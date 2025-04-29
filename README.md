@@ -1,1 +1,1 @@
-Conv_kernel in c, from scratch.
+Conv_kernel in c++, from scratch.
