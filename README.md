@@ -1,1 +1,1 @@
-Conv_kernel in c, from src.
+Conv_kernel in c, from scratch.
