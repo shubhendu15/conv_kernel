@@ -1,0 +1,30 @@
+# Build Artifacts
+obj/
+lib/
+bin/
+
+
+# Compiled object files
+*.so
+*.o
+*.a
+*.exe
+*.out
+*.exe
+
+
+# Backup or temporary files
+*~
+*.swp
+.DS_Store
+
+#IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+
+# make-generated dependency files(if used)
+*.d
